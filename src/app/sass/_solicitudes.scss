@@ -1,0 +1,114 @@
+.itemContainer {
+  height: 83px;
+  width: 802px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.23);
+
+  div {
+    float: left;
+  }
+
+  .delete {
+    width: 33px;
+    padding: 25px;
+  }
+
+  .details {
+    width: 310px;
+    padding: 22px;
+
+    .name {
+      display: block;
+      height: 19px;
+      width: 100%;
+      color: #333333;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px;
+    }
+    .cuit {
+      font-size: 16px;
+      span {
+        text-transform: uppercase;
+        color: #CCCCCC;
+      }
+
+    }
+  }
+
+  .identificacion {
+    width: 140px;
+    padding: 15px;
+
+    .n-de-establecimient {
+      display: block;
+      height: 14px;
+      color: #848484;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    .id {
+      display: block;
+      height: 19px;
+      color: #333333;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px;
+    }
+
+    .date {
+      border-radius: 2px;
+      background-color: #B6B6B6;
+
+    }
+  }
+
+  input {
+    width: 133px;
+    float: left;
+    border: none;
+    margin: 25px;
+    border-bottom: 1px solid black;
+
+    &.valid {
+      border-color: #23C324;
+    }
+  }
+
+  .approve {
+    width: 33px;
+    margin: 20px;
+  }
+
+  .confirm-container {
+    margin: 15px;
+    padding: 15px 30px;
+    border: 1px solid #D20F36;
+    border-radius: 2px;
+    width: 710px;
+    .text {
+      color: #333333;
+      font-size: 16px;
+      line-height: 20px;
+      margin-right: 100px;
+    }
+    .cancelar {
+      color: #333333;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px;
+      text-decoration: underline;
+      margin-right: 25px;
+    }
+    .rechazar {
+      color: #D20F36;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px;
+    }
+  }
+
+}

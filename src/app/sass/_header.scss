@@ -1,0 +1,41 @@
+.navbar {
+  background-color: $white;
+  box-shadow: 0 1px 0 0 #D2D2D2;
+  height: 50px;
+  border-radius: 0;
+
+  .navbar-header {
+    height: 22px;
+    padding: 10px 0;
+
+    .navbar-brand {
+      border-right: 1px solid black;
+      padding: 0 10px;
+      margin-right: 10px;
+      height: 22px;
+    }
+
+    .solicitudes {
+      height: 24px;
+      width: 97px;
+      color: #666666;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  .crear-solicitud {
+    color: #005B9C;
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+
+    img {
+      height: 21px;
+      width: 21px;
+      margin-right: 5px;
+    }
+  }
+}

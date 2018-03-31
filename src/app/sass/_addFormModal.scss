@@ -1,0 +1,86 @@
+.add-form {
+  height: 456px;
+  width: 425px;
+  border-radius: 4px;
+  background-color: $white;
+
+
+  .title {
+    border-bottom: 1px solid #C0C0C0;
+
+    h1 {
+      height: 19px;
+      color: #005B9C;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px;
+      text-align: center;
+    }
+  }
+
+  form {
+    padding: 42px 35px;
+
+    label {
+      color: black;
+      font-size: 12px;
+      display: block;
+      width: 100%;
+    }
+
+    input {
+      width: 100%;
+      height: 43px;
+      font-size: 17px;
+      border: 1px solid #CCC;
+      margin-top: 12px;
+      margin-bottom: 23px;
+      padding-left: 10px;
+    }
+
+    .botones {
+      margin-top: 95px;
+      margin-bottom: 42px;
+      border-top: 1px solid #979797;
+      padding-top: 23px;
+
+
+      button {
+        width: 155px;
+        border-radius: 2px;
+        font-size: 17px;
+
+        &.cancelar {
+          background-color: $white;
+          background-image: none;
+          color: $black;
+          border-color: $black;
+          margin-right: 15px;
+        }
+        &.crear {
+          background-color: #005B9C;
+          background-image: none;
+          color: $white;
+          border-color: #005B9C;
+
+        }
+      }
+    }
+  }
+}
+
+.ReactModalPortal > * {
+  // When the modal is closed, overlay div has no css class
+  // This selector should be overridden by the `&--after-open` class below
+  opacity: 0;
+}
+.ReactModal__Overlay {
+  transition: opacity 200ms ease-in-out;
+  background: rgba(0, 0, 0, 0.15);
+  &--after-open {
+    opacity: 1;
+  }
+  &--before-close {
+    opacity: 0;
+  }
+}

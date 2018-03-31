@@ -1,0 +1,161 @@
+#landing {
+
+  font-family: "Droid Sans";
+  position: relative;
+
+  .header {
+    height: 529px;
+    width: 1280px;
+    background: $body-background-color url("../../static/images/Group.png");
+    color: $white;
+
+    .row {
+      padding-left: 123px;
+      padding-top: 67px;
+
+      .col1 {
+
+        border-bottom: 2px solid $white;
+        padding-left: 0;
+
+        .bienvenido {
+          height: 50px;
+          width: 126px;
+          color: #FFFFFF;
+          font-size: 22px;
+          font-weight: bold;
+          line-height: 25px;
+        }
+        .input-wrapper {
+
+          margin-bottom: 10px;
+
+          .introduce-tu-nombre {
+            height: 35px;
+            width: 284px;
+            color: rgba(255,255,255,0.3);
+            font-size: 30px;
+            line-height: 35px;
+            background-color: $geopagos-blue;
+            border: none;
+          }
+          .white-arrow {
+            float: right;
+          }
+        }
+
+      }
+
+      .col2 {
+        span {
+          display: block;
+          width: 100%;
+          float: right;
+          text-align: right;
+          font-size: 10px;
+        }
+        img {
+          float: right;
+          width: 105px;
+          opacity: 0.21;
+        }
+      }
+    }
+  }
+
+  .form {
+    position: absolute;
+    top: 250px;
+    right: 150px;
+    height: 447px;
+    width: 450px;
+    border-radius: 8px;
+    background: linear-gradient(138.15deg, #1A56FF 0%, #600FC0 100%);
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.14);
+
+    h2 {
+      height: 45px;
+      width: 398.92px;
+      color: #FFFFFF;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 45px;
+      padding-left: 32px;
+      text-transform: uppercase;
+    }
+
+    form {
+      label, input {
+        margin-left: 32px;
+      }
+      label {
+        color: $white;
+      }
+      input {
+        width: 390px;
+        height: 40px;
+        margin-bottom: 24px;
+        border-radius: 2px;
+        padding-left: 15px;
+
+        &:last-of-type{
+          margin-bottom: 55px;
+        }
+      }
+      button {
+        height: 74px;
+        width: 450px;
+        opacity: 0.35;
+        border-radius: 0 0 8px 8px;
+        .text {
+          height: 24px;
+          width: 157.44px;
+          opacity: 0.18;
+          color: #FFFFFF;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 24px;
+          text-align: center;
+        }
+
+        &.active {
+          background-color: #F8972E;
+          opacity: 1;
+          .text {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .disclaimer {
+
+    padding-left: 125px;
+    padding-top: 100px;
+
+    .comienza-a-aprobar-n {
+      height: 60px;
+      width: 329px;
+      color: #142989;
+      font-family: "Droid Sans";
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+
+    .lorem-ipsum-dolor-si {
+      height: 385px;
+      width: 489px;
+      color: #999999;
+      font-family: "Droid Sans";
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .rectangle-8 {
+  }
+}
